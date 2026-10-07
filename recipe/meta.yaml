@@ -1,12 +1,12 @@
-{% set version = "3.29.0" %}
+{% set version = "4.4.3" %}
 
 package:
   name: sphinxcontrib-moderncmakedomain
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/sphinxcontrib-moderncmakedomain/sphinxcontrib_moderncmakedomain-{{ version }}.tar.gz
-  sha256: 3587def241ff2577d0bbef11810a082e9dec1b78a3d4b4a066240b5f3dc1b5b2
+  url: https://files.pythonhosted.org/packages/source/s/sphinxcontrib-moderncmakedomain/sphinxcontrib_moderncmakedomain-{{ version }}.tar.gz
+  sha256: 23f80188bb241a4da6886f9e4b204dc62bae76060a41aa597b90f04d277410a8
 
 build:
   noarch: python
